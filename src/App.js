@@ -22,7 +22,7 @@ class App extends Component{
     const a = 5;
     const flag = true;
     return(
-      <div className="App">
+      <div className="App container">
         <div className="initial">
           <h1>Xello React</h1>
           <h3>{ 5+3 }</h3>
