@@ -1,23 +1,11 @@
 import React, { Component } from 'react';
-import User from './components/User';
+import Users from './components/Users';
 import Functional from './components/Functional';
 import './App.css';
 
-// function App() {
-//   return (
-//     <div className="App">
-      
-        
-//         <h1>
-//           I edited this App))
-//         </h1>
-        
-      
-//     </div>
-//   );
-// }
 
 class App extends Component{
+  
   render(){
     const a = 5;
     const flag = true;
@@ -37,15 +25,13 @@ class App extends Component{
           <hr/>
         </div>
         <div className="additional">
-            <User name='Emil Ocaqverdiyev' field='Software Engineer' country='Azerbaijan'></User>
-            <User name='Sebastian Vettel' field='Formula1 Driver' country='Germany'></User>
-            <User name='Some One' country='World'></User>
+            <Users />
         </div>
         <hr/>
 
         <div className="additionalfunctional">
-            <Functional title = "Functional Component's title"></Functional>
-            <Functional></Functional>
+            <Functional title = "Functional Component's title"/>
+            <Functional/>
         </div>
         <hr/>
 
