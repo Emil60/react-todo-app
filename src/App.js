@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Users from './components/Users';
 import Functional from './components/Functional';
+import AddUser from './components/AddUser';
 import './App.css';
 
 
@@ -22,6 +23,8 @@ class App extends Component{
               : <p>Flag is False</p>
             }
           </div>
+          <hr/>
+          <AddUser />
           <hr/>
         </div>
         <div className="additional">

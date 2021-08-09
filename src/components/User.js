@@ -54,7 +54,7 @@ User.propTypes = {
     "name" : PropTypes.string.isRequired,
     "field": PropTypes.string.isRequired,
     'country': PropTypes.string.isRequired,
-    'id': PropTypes.number.isRequired
+    'id': PropTypes.string.isRequired
 }
 
 User.defaultProps = {
