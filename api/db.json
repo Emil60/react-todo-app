@@ -1,0 +1,28 @@
+{
+    "users":[
+        {
+          "id":"unique1",
+          "name": "Emil Ocaqverdiyev",
+          "field": "Software Engineer",
+          "country": "Azerbaijan"
+        },
+        {
+          "id":"unique2",
+          "name": "Lando Norris",
+          "field": "Mclaren Driver",
+          "country": "England"
+        },
+        {
+          "id":"unique3",
+          "name": "Sebastian Vettel",
+          "field": "F1 Driver",
+          "country": "Germany"
+        },
+        {
+          "id":"unique4",
+          "name": "Kimi Raikkonen",
+          "field": "Alfa Romeo Driver",
+          "country": "Finland"
+        }
+      ]
+}
